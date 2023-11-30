@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="search-box">
+			<img style="width: 25px;" src="./image/location.png" alt="" class="location-icon">
+			<input class="search-box__input" type="text" placeholder="Enter u location" value="Moscow">
+			<button class="btn"></button>
+		</div>
+		<div class="weather">
+			<div class="weather__image">
+				<img class="weather__image-value" src="./image/rain-anim.gif" alt="">
+			</div>
+			<p class="weather__temp">22 °C</p>
+			<p class="weather__city">Berlin</p>
+			<div class="details">
+				<div class="details__humidity">
+					<img src="./image/water-anim.gif" alt="" class="details-image">
+					<p class="details__humidity-value details-value">75%</p>
+					<p class="details-value">Humidity</p>
+				</div>
+				<div class="details__wind-speed">
+					<img src="./image/wind-anim.gif" alt="" class="details-image">
+					<p class="details__wind-value details-value">15 km/h</p>
+					<p class="details-value">Wind speed </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./app.js"></script>
+</body>
+
+</html>
